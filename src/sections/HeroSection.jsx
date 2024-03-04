@@ -10,7 +10,7 @@ const HeaderSection = styled.section`
   position: relative;
   background: rgba(24, 24, 24, 0.5);
   overflow: hidden;
-  height: calc(100vh - 4.5rem);
+  height: calc(100svh - 4.5rem) !important;
   width: 100vw;
 `
 const I1 = styled(motion.img)`
