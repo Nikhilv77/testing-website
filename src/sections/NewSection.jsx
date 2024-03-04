@@ -3,7 +3,7 @@ import React from "react";
 
 const NewSection = () => {
   const Section = styled.section`
-    height: calc(100vh - 4.5rem);
+    min-height: calc(100vh - 4.5rem);
     width: 100vw;
     position: relative;
     background-color: green;
