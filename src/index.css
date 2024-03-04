@@ -1,0 +1,28 @@
+/* Resetting default browser styles */
+html, body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensuring full width and height for HTML and body */
+html, body {
+  width: 100%;
+  height: 100%;/* Example font stack */
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+
+/* Basic styling for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
