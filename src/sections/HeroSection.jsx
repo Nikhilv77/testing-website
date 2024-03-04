@@ -10,7 +10,7 @@ const HeaderSection = styled.section`
   position: relative;
   background: rgba(24, 24, 24, 0.5);
   overflow: hidden;
-  height: auto;
+  height: 100vh;
   width: 100vw;
 `
 const I1 = styled(motion.img)`
@@ -146,58 +146,58 @@ const Header = () => {
     <HeaderSection>
       <ImageContainer>
         <I1
-          initial={{
-         left:'-150%',scale:0.3
-          }}
-          animate={{
-            opacity: 1,left:'15%',scale:1
-          }}
-          transition={{
-            delay: 1,
-            duration: 1.4,
-          }}
+        //   initial={{
+        //  left:'-150%',scale:0.3
+        //   }}
+        //   animate={{
+        //     opacity: 1,left:'15%',scale:1
+        //   }}
+        //   transition={{
+        //     delay: 1,
+        //     duration: 1.4,
+        //   }}
           src={image1}
         />
         <I2
-          initial={{
-         right:'-40%',scale:0.3
-          }}
-          animate={{
-            opacity: 1,right:'15%',scale:1
-          }}
-          transition={{
-            delay: 1,
-            duration: 1.4,
-          }}
+        //   initial={{
+        //  right:'-40%',scale:0.3
+        //   }}
+        //   animate={{
+        //     opacity: 1,right:'15%',scale:1
+        //   }}
+        //   transition={{
+        //     delay: 1,
+        //     duration: 1.4,
+        //   }}
           src={image2}
         />
       </ImageContainer>
       <I3
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5, type: 'ease' }}
+        // initial={{ opacity: 0 }}
+        // animate={{ opacity: 1 }}
+        // transition={{ duration: 1, delay: 1.5, type: 'ease' }}
         src={image3}
         alt="background-blur"
       />
       <I4
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5, type: 'ease' }}
+        // initial={{ opacity: 0 }}
+        // animate={{ opacity: 1 }}
+        // transition={{ duration: 1, delay: 1.5, type: 'ease' }}
         src={image4}
         alt="background-blur"
       />
       <Title
-        initial={{
-          opacity: 0,
-        }}
-        animate={{
-          opacity: 1,
-        }}
-        transition={{
-          delay: 2,
-          duration: 1.4,
+        // initial={{
+        //   opacity: 0,
+        // }}
+        // animate={{
+        //   opacity: 1,
+        // }}
+        // transition={{
+        //   delay: 2,
+        //   duration: 1.4,
           
-        }}
+        // }}
       >
         <motion.h1>
           Discover, Connect & Share Your World on Tags Social
