@@ -85,3 +85,71 @@
   color: #b0b0b0;
   width: 90%;
 }
+
+@media (max-width: 750px) {
+  .image-container {
+    height: 55.5%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .image1 {
+    height: 23rem;
+    width: 11rem;
+  }
+
+  .image2 {
+    height: 20rem;
+    width: 12rem;
+  }
+
+  .title {
+    justify-content: flex-start;
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem;
+  }
+
+  .title h1 {
+    font-size: 2em;
+  }
+
+  .title h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .title h1 {
+    font-size: 1.9em;
+  }
+
+  .title h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .title h1 {
+    font-size: 1.8em;
+  }
+
+  .title h2 {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 400px) {
+  .title h1 {
+    font-size: 1.7em;
+  }
+
+  .title h2 {
+    font-size: 1em;
+  }
+}
